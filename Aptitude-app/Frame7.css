@@ -1,0 +1,204 @@
+.frame-child1 {
+  align-self: stretch;
+  position: relative;
+  background-color: var(--color-gainsboro);
+  height: 1188px;
+  display: none;
+}
+.frame-child2,
+.wrong1 {
+  position: relative;
+  max-width: 100%;
+}
+.wrong1 {
+  width: 484px;
+  height: 150px;
+  display: flex;
+  font-weight: 900;
+  align-items: flex-end;
+  justify-content: center;
+  flex-shrink: 0;
+  padding-left: var(--padding-xl);
+  padding-right: var(--padding-xl);
+  z-index: 1;
+}
+.frame-child2 {
+  width: 1343px;
+  height: 594px;
+  background-color: var(--color-black);
+  display: none;
+}
+.answer-wrapper,
+.answer1 {
+  display: flex;
+  max-width: 100%;
+}
+.answer1 {
+  height: 185px;
+  width: 561px;
+  position: relative;
+  font-weight: 900;
+  align-items: flex-end;
+  justify-content: center;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.answer-wrapper {
+  width: 653px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.next2,
+.rectangle-icon {
+  position: absolute;
+  cursor: pointer;
+}
+.rectangle-icon {
+  top: 35px;
+  left: 0;
+  border-radius: var(--br-66xl);
+  width: 334px;
+  height: 128px;
+  z-index: 2;
+}
+.next2 {
+  top: 0;
+  left: 23px;
+  display: flex;
+  font-weight: 900;
+  align-items: flex-end;
+  justify-content: center;
+  width: 311px;
+  height: 132px;
+  z-index: 3;
+}
+.vector-parent {
+  align-self: stretch;
+  height: 163px;
+  position: relative;
+}
+.frame-container {
+  width: 334px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-mini);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frame-child3 {
+  height: 98px;
+  width: 242px;
+  position: relative;
+  background-color: var(--color-gainsboro);
+  display: none;
+}
+.final2 {
+  height: 61px;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-29xl);
+  display: inline-block;
+  font-weight: 900;
+  font-family: var(--font-inter);
+  color: var(--color-firebrick-200);
+  text-align: left;
+  z-index: 3;
+}
+.frame-button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xl) var(--padding-10xl) var(--padding-mini)
+    var(--padding-6xl);
+  background-color: var(--color-gainsboro);
+  width: 242px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  box-sizing: border-box;
+  z-index: 2;
+}
+.frame-button:hover {
+  background-color: var(--color-silver);
+}
+.frame-group,
+.frame-section,
+.rectangle-root {
+  display: flex;
+  text-align: center;
+  font-family: var(--font-inter);
+}
+.frame-group {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  font-size: var(--font-size-45xl);
+  color: var(--color-black);
+}
+.frame-section,
+.rectangle-root {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  font-size: var(--font-size-109xl);
+}
+.frame-section {
+  align-self: stretch;
+  background-color: var(--color-black);
+  padding: 0 55px var(--padding-7xl) var(--padding-10xl);
+  gap: var(--gap-186xl);
+  max-width: 100%;
+  z-index: 1;
+  color: var(--color-white);
+}
+.rectangle-root {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-gainsboro);
+  padding: 444px var(--padding-12xs) 0 0;
+  letter-spacing: normal;
+  color: var(--color-black);
+}
+@media screen and (max-width: 750px) {
+  .answer1,
+  .next2,
+  .wrong1 {
+    font-size: var(--font-size-32xl);
+  }
+  .final2 {
+    font-size: var(--font-size-19xl);
+  }
+  .frame-section {
+    gap: var(--gap-83xl);
+    padding-right: 27px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 675px) {
+  .frame-group {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 450px) {
+  .answer1,
+  .wrong1 {
+    font-size: var(--font-size-13xl);
+  }
+  .next2 {
+    font-size: var(--font-size-19xl);
+  }
+  .final2 {
+    font-size: var(--font-size-10xl);
+  }
+  .frame-section {
+    gap: var(--gap-32xl);
+  }
+}

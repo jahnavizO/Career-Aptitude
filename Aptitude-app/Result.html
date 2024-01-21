@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./Result.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;1,400;1,800;1,900&display=swap"
+    />
+  </head>
+  <body>
+    <div class="result">
+      <img
+        class="f20eba7a-d5aa-4df4-9de1-f98843-icon"
+        loading="eager"
+        alt=""
+        src="./public/-f20eba7ad5aa4df49de1f9884389d2dfremovebgpreview-1@2x.png"
+      />
+
+      <div class="congratulations-text">
+        <i class="congratulations-if-your-container">
+          <p class="congratulations">Congratulations!!!</p>
+          <p class="if-your-score">
+            If your score is more than 3 in Mathematical Aptitude than you can
+            choose Engineering as your career
+          </p>
+        </i>
+      </div>
+      <section class="if-your-score1">
+        If your score is more than 2 in Verbal Aptitude and less than 3 in
+        Mathematical Aptitude than you can choose Humanities as your career
+      </section>
+      <div class="rounded-button">
+        <div class="ellipse-shape"></div>
+        <i class="to-go-home" id="toGoHome">To go home click here</i>
+      </div>
+    </div>
+
+    <script>
+      var toGoHome = document.getElementById("toGoHome");
+      if (toGoHome) {
+        toGoHome.addEventListener("click", function (e) {
+          window.location.href = "./MainFrame2.html";
+        });
+      }
+      </script>
+  </body>
+</html>

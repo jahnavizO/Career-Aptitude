@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./Frame7.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;1,400;1,800;1,900&display=swap"
+    />
+  </head>
+  <body>
+    <div class="rectangle-root">
+      <div class="frame-child1"></div>
+      <i class="wrong1">Wrong</i>
+      <section class="frame-section">
+        <div class="frame-child2"></div>
+        <div class="answer-wrapper">
+          <i class="answer1">Answer</i>
+        </div>
+        <footer class="frame-group">
+          <div class="frame-container">
+            <div class="vector-parent">
+              <img
+                class="rectangle-icon"
+                loading="eager"
+                alt=""
+                src="./public/rectangle-39.svg"
+                id="rectangle1"
+              />
+
+              <i class="next2" id="nEXTText">NEXT</i>
+            </div>
+          </div>
+          <button class="frame-button" id="frameButton">
+            <div class="frame-child3"></div>
+            <i class="final2">FINAL</i>
+          </button>
+        </footer>
+      </section>
+    </div>
+
+    <script>
+      var rectangle1 = document.getElementById("rectangle1");
+      if (rectangle1) {
+        rectangle1.addEventListener("click", function (e) {
+          window.location.href = "./Questions.html";
+        });
+      }
+      
+      var nEXTText = document.getElementById("nEXTText");
+      if (nEXTText) {
+        nEXTText.addEventListener("click", function (e) {
+          window.location.href = "./Questions.html";
+        });
+      }
+      
+      var frameButton = document.getElementById("frameButton");
+      if (frameButton) {
+        frameButton.addEventListener("click", function (e) {
+          window.location.href = "./Quiz.html";
+        });
+      }
+      </script>
+  </body>
+</html>

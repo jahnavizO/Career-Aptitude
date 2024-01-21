@@ -1,0 +1,214 @@
+.frame-child4 {
+  align-self: stretch;
+  width: 1556px;
+  position: relative;
+  background-color: var(--color-black);
+  display: none;
+  max-width: 100%;
+}
+.right1 {
+  height: 161px;
+  width: 543px;
+  position: relative;
+  font-weight: 900;
+  justify-content: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.answer2,
+.rectangle-parent1,
+.right1 {
+  display: flex;
+  align-items: flex-end;
+  max-width: 100%;
+}
+.rectangle-parent1 {
+  align-self: stretch;
+  background-color: var(--color-black);
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0 455px;
+  box-sizing: border-box;
+  min-height: 594px;
+}
+.answer2 {
+  height: 200px;
+  width: 576px;
+  position: relative;
+  font-weight: 900;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.answer-frame,
+.frame-parent1 {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.answer-frame {
+  width: 700px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  color: var(--color-black);
+}
+.frame-parent1 {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: var(--font-size-109xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.next-indicator,
+.next3 {
+  position: absolute;
+  left: 0;
+  width: 334px;
+}
+.next-indicator {
+  top: 10px;
+  border-radius: var(--br-66xl);
+  background-color: var(--color-black);
+  height: 128px;
+}
+.next3 {
+  top: 0;
+  display: flex;
+  font-weight: 900;
+  align-items: flex-end;
+  justify-content: center;
+  height: 110px;
+  cursor: pointer;
+  z-index: 1;
+}
+.next-indicator-parent {
+  height: 138px;
+  width: 334px;
+  position: relative;
+  max-width: 100%;
+}
+.final-frame-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-firebrick-100);
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.final3 {
+  position: absolute;
+  top: 21px;
+  left: 21px;
+  font-size: var(--font-size-51xl);
+  display: inline-block;
+  font-weight: 900;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+  width: 361px;
+  height: 83px;
+  z-index: 1;
+}
+.final-frame1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 117px;
+  width: 403px;
+  position: relative;
+  max-width: 100%;
+}
+.frame-parent2 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.main-frame-inner,
+.main-frame1 {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.main-frame-inner {
+  width: 1494px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-16xl) 0 var(--padding-xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-45xl);
+  color: var(--color-gainsboro);
+  font-family: var(--font-inter);
+}
+.main-frame1 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0 var(--padding-16xl);
+  gap: 221px;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .rectangle-parent1 {
+    padding-left: var(--padding-208xl);
+    padding-right: var(--padding-208xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .answer2,
+  .next3,
+  .right1 {
+    font-size: var(--font-size-32xl);
+  }
+  .final3 {
+    font-size: var(--font-size-37xl);
+  }
+  .frame-parent2 {
+    flex-wrap: wrap;
+  }
+  .main-frame1 {
+    gap: 110px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .rectangle-parent1 {
+    padding-left: var(--padding-94xl);
+    padding-right: var(--padding-94xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .right1 {
+    font-size: var(--font-size-13xl);
+  }
+  .rectangle-parent1 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .answer2 {
+    font-size: var(--font-size-13xl);
+  }
+  .next3 {
+    font-size: var(--font-size-19xl);
+  }
+  .final3 {
+    font-size: var(--font-size-23xl);
+  }
+  .main-frame1 {
+    gap: 55px;
+  }
+}

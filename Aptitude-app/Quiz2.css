@@ -1,0 +1,798 @@
+.quiz-frame-child,
+.score-3 {
+  position: relative;
+  max-width: 100%;
+}
+.quiz-frame-child {
+  width: 1440px;
+  max-height: 100%;
+  display: none;
+}
+.score-3 {
+  margin: 0;
+  height: 63px;
+  width: 433px;
+  font-size: inherit;
+  display: inline-block;
+  font-style: italic;
+  font-weight: 800;
+  font-family: inherit;
+  flex-shrink: 0;
+  white-space: nowrap;
+  padding-right: var(--padding-xl);
+  z-index: 1;
+}
+.quiz-frame {
+  align-self: stretch;
+  background-color: #2b6e72;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-28xl) 0;
+  box-sizing: border-box;
+  min-height: 168px;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-29xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.a,
+.wrong-answer {
+  position: relative;
+  display: none;
+}
+.a {
+  height: 29px;
+  font-size: var(--font-size-5xl);
+  font-weight: 800;
+}
+.wrong-answer {
+  width: 276px;
+}
+.quiz-2-child,
+.right-answer {
+  position: relative;
+  flex-shrink: 0;
+  display: none;
+}
+.right-answer {
+  width: 453px;
+  height: 59px;
+  max-width: 100%;
+}
+.quiz-2-child {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+}
+.q1-choose-the {
+  height: 50px;
+  width: 1364px;
+  position: absolute;
+  margin: 0 !important;
+  top: 29px;
+  right: -258px;
+  display: inline-block;
+  font-weight: 800;
+  z-index: 2;
+}
+.voluble-ellipse-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gainsboro);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.inarticulate {
+  position: absolute;
+  top: 109px;
+  left: 50px;
+  display: inline-block;
+  font-weight: 800;
+  width: 228px;
+  height: 47px;
+  cursor: pointer;
+  z-index: 1;
+}
+.altruistic-frame,
+.malevolent-frame {
+  background-color: var(--color-gainsboro);
+  position: absolute;
+  left: 0;
+}
+.malevolent-frame {
+  top: 84px;
+  border-radius: 50%;
+  width: 49px;
+  height: 51px;
+  z-index: 2;
+}
+.altruistic-frame {
+  border: 0;
+  outline: 0;
+  top: 0;
+  width: 796px;
+  height: 71px;
+  z-index: 1;
+}
+.meticulous-frame-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 623px;
+  height: 109px;
+  z-index: 3;
+}
+.meticulous-frame {
+  position: absolute;
+  top: 8px;
+  left: 37px;
+  width: 796px;
+  height: 135px;
+}
+.ellipse-pair {
+  align-self: stretch;
+  height: 50px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-gray-100);
+  z-index: 4;
+}
+.b {
+  height: 29px;
+  position: relative;
+  display: inline-block;
+  font-weight: 800;
+  z-index: 5;
+  margin-top: -38px;
+}
+.inarticulate-text {
+  position: absolute;
+  top: 99px;
+  left: 300px;
+  width: 49px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.fluent {
+  position: absolute;
+  top: 111px;
+  left: 331px;
+  display: inline-block;
+  font-weight: 800;
+  width: 75px;
+  height: 38px;
+  cursor: pointer;
+  z-index: 6;
+}
+.inarticulate-text-child {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-gray-100);
+  z-index: 4;
+}
+.c {
+  width: 37px;
+  height: 44px;
+  position: relative;
+  display: inline-block;
+  font-weight: 800;
+  flex-shrink: 0;
+  z-index: 5;
+  margin-top: -39px;
+}
+.inarticulate-text1 {
+  position: absolute;
+  top: 99px;
+  left: 549px;
+  width: 49px;
+  height: 55px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.voluble {
+  top: 111px;
+  left: 585px;
+  display: inline-block;
+  font-weight: 800;
+  width: 87px;
+  height: 38px;
+  cursor: pointer;
+  z-index: 6;
+}
+.a-frame,
+.a1,
+.voluble {
+  position: absolute;
+}
+.a-frame {
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-gray-100);
+  width: 100%;
+  height: 100%;
+  z-index: 4;
+}
+.a1 {
+  top: 10px;
+  left: 12px;
+  display: inline-block;
+  font-weight: 800;
+  width: 17px;
+  height: 29px;
+  z-index: 5;
+}
+.thorough-text {
+  position: absolute;
+  top: 101px;
+  left: 24px;
+  width: 57px;
+  height: 47px;
+}
+.choose-frame,
+.voluble-ellipse {
+  position: relative;
+  max-width: 100%;
+}
+.voluble-ellipse {
+  height: 195px;
+  flex: 1;
+  background-color: var(--color-gainsboro);
+}
+.choose-frame {
+  width: 853px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+}
+.diligent-frame {
+  height: 14px;
+  width: 4px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-gainsboro);
+}
+.q2-what-is {
+  height: 10px;
+  width: 998px;
+  position: absolute;
+  margin: 0 !important;
+  top: 32px;
+  left: -212px;
+  display: inline-block;
+  font-weight: 800;
+  white-space: pre-wrap;
+  z-index: 1;
+}
+.antonym-frame-child {
+  height: 163px;
+  width: 888px;
+  position: relative;
+  background-color: var(--color-gainsboro);
+  flex-shrink: 0;
+  transform: rotate(180deg);
+  display: none;
+}
+.ellipse-pair1 {
+  align-self: stretch;
+  height: 50px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-gray-100);
+  z-index: 1;
+}
+.a2 {
+  height: 29px;
+  position: relative;
+  display: inline-block;
+  font-weight: 800;
+  z-index: 2;
+  margin-top: -39px;
+}
+.generous-frame {
+  align-self: stretch;
+  width: 49px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.careless {
+  height: 29px;
+  position: relative;
+  display: inline-block;
+  font-weight: 800;
+  cursor: pointer;
+  z-index: 1;
+}
+.answer-text,
+.malevolent-frame1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.answer-text {
+  flex-direction: column;
+  padding: var(--padding-6xs) 0 0;
+}
+.malevolent-frame1 {
+  height: 50px;
+  flex-direction: row;
+  gap: 17px;
+}
+.question-frame {
+  align-self: stretch;
+  height: 53px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-gray-100);
+  z-index: 1;
+}
+.b1 {
+  height: 29px;
+  position: relative;
+  display: inline-block;
+  font-weight: 800;
+  z-index: 2;
+  margin-top: -41px;
+}
+.frame-a {
+  align-self: stretch;
+  width: 62px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.diligent {
+  position: relative;
+  font-weight: 800;
+  cursor: pointer;
+  z-index: 1;
+}
+.diligent-or-thorough,
+.opposite-frames {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.diligent-or-thorough {
+  flex-direction: column;
+  padding: var(--padding-5xs) 0 0;
+}
+.opposite-frames {
+  height: 53px;
+  flex-direction: row;
+  gap: var(--gap-10xl);
+}
+.q-question-mark {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-gray-100);
+  z-index: 1;
+}
+.c1,
+.frame-c {
+  position: relative;
+}
+.c1 {
+  height: 29px;
+  display: inline-block;
+  font-weight: 800;
+  z-index: 2;
+}
+.frame-c {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 23px 16px var(--padding-xl);
+}
+.thorough {
+  height: 40px;
+  position: relative;
+  display: inline-block;
+  font-weight: 800;
+  cursor: pointer;
+  z-index: 1;
+}
+.benevolence-or-malevolence {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
+}
+.antonym-frame {
+  flex: 1;
+  background-color: var(--color-gainsboro);
+  overflow-x: auto;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-6xl) var(--padding-mid);
+  box-sizing: border-box;
+  gap: 58px;
+  max-width: 100%;
+}
+.antonym-frame,
+.careless-frame,
+.thorough-text1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+}
+.thorough-text1 {
+  width: 888px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  max-width: calc(100% - 24px);
+}
+.careless-frame {
+  width: 1093px;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.malevolent-ellipse,
+.score-text {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.malevolent-ellipse {
+  height: 163px;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.score-text {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-lgi);
+}
+.frame-c-child,
+.synonym-or-antonym-child {
+  background-color: var(--color-gainsboro);
+  display: none;
+}
+.frame-c-child {
+  position: absolute;
+  top: 38px;
+  left: 523px;
+  border-radius: 50%;
+  width: 63px;
+  height: 59px;
+}
+.synonym-or-antonym-child {
+  height: 178px;
+  width: 862px;
+  position: relative;
+  max-width: 100%;
+}
+.q3 {
+  position: relative;
+  font-weight: 800;
+  z-index: 2;
+}
+.a3,
+.ellipse-a {
+  position: absolute;
+}
+.ellipse-a {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background-color: var(--color-gray-100);
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  height: 100%;
+  z-index: 2;
+}
+.a3 {
+  top: 12px;
+  left: 19px;
+  font-weight: 800;
+  z-index: 3;
+}
+.frame-a1 {
+  align-self: stretch;
+  height: 53px;
+  position: relative;
+}
+.a-synonym-for-meticulous {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 62px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.malevolent,
+.what-is-the {
+  position: relative;
+  display: inline-block;
+  font-weight: 800;
+  z-index: 2;
+}
+.what-is-the {
+  width: 485px;
+  max-width: 100%;
+}
+.malevolent {
+  height: 29px;
+  cursor: pointer;
+}
+.text-instruction-b {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 14px;
+}
+.c-text-instruction {
+  align-self: stretch;
+  height: 53px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-gray-100);
+  z-index: 2;
+}
+.b2 {
+  height: 29px;
+  position: relative;
+  display: inline-block;
+  font-weight: 800;
+  z-index: 3;
+  margin-top: -41px;
+}
+.benevolence {
+  align-self: stretch;
+  width: 62px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.altruistic {
+  position: relative;
+  font-weight: 800;
+  cursor: pointer;
+  z-index: 2;
+}
+.text-input,
+.text-instruction-c {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) 0 0;
+}
+.text-instruction-c {
+  height: 53px;
+  flex-direction: row;
+  padding: 0 var(--padding-2xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-2xs);
+}
+.synonym-frame {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-gray-100);
+  z-index: 2;
+}
+.c2 {
+  height: 29px;
+  position: relative;
+  display: inline-block;
+  font-weight: 800;
+  z-index: 3;
+}
+.antonym-frame1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding: var(--padding-lgi) var(--padding-6xl) var(--padding-2xs)
+    var(--padding-3xl);
+  position: relative;
+}
+.malevolent-or-altruistic {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 44px;
+  max-width: 100%;
+}
+.frame-b1,
+.q-what-is-the-antonym-for-bene {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.q-what-is-the-antonym-for-bene {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-2xs);
+  box-sizing: border-box;
+}
+.frame-b1 {
+  position: absolute;
+  top: 0;
+  left: 57px;
+  flex-direction: column;
+  gap: var(--gap-lgi);
+}
+.q-what-is-the-synonym-for {
+  height: 108px;
+  width: 562px;
+  position: relative;
+  max-width: 100%;
+}
+.generous {
+  height: 29px;
+  position: relative;
+  display: inline-block;
+  font-weight: 800;
+  cursor: pointer;
+  z-index: 2;
+}
+.generous-frame1,
+.synonym-or-antonym {
+  display: flex;
+  justify-content: flex-start;
+}
+.generous-frame1 {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 12px;
+}
+.synonym-or-antonym {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gainsboro);
+  width: 100%;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: var(--padding-5xl) 50px 46px;
+  box-sizing: border-box;
+  gap: var(--gap-2xs);
+  height: 100%;
+  max-width: 100%;
+  z-index: 1;
+}
+.frame-c1 {
+  width: 862px;
+  height: 178px;
+  position: relative;
+  max-width: 100%;
+}
+.frame-b,
+.quiz-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  text-align: center;
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.frame-b {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0 0 0 var(--padding-xl);
+  gap: var(--gap-5xl);
+  max-width: 100%;
+  font-size: var(--font-size-5xl);
+}
+.quiz-2 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  align-items: flex-end;
+  padding: 0 0 226px;
+  gap: var(--gap-32xl);
+  letter-spacing: normal;
+  font-size: var(--font-size-21xl);
+}
+@media screen and (max-width: 750px) {
+  .right-answer,
+  .wrong-answer {
+    font-size: var(--font-size-13xl);
+  }
+  .antonym-frame {
+    gap: var(--gap-10xl);
+  }
+  .synonym-or-antonym {
+    flex-wrap: wrap;
+    padding-left: var(--padding-6xl);
+    padding-right: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+  .frame-c1 {
+    height: auto;
+    min-height: 178;
+  }
+  .quiz-2 {
+    gap: 25px;
+  }
+}
+@media screen and (max-width: 675px) {
+  .malevolent-or-altruistic {
+    flex-wrap: wrap;
+  }
+  .q-what-is-the-synonym-for {
+    height: auto;
+    min-height: 108;
+  }
+}
+@media screen and (max-width: 450px) {
+  .a {
+    font-size: var(--font-size-lgi);
+  }
+  .right-answer,
+  .wrong-answer {
+    font-size: var(--font-size-5xl);
+  }
+  .a1,
+  .a2,
+  .a3,
+  .altruistic,
+  .b,
+  .b1,
+  .b2,
+  .c,
+  .c1,
+  .c2,
+  .careless,
+  .diligent,
+  .fluent,
+  .generous,
+  .inarticulate,
+  .malevolent,
+  .q1-choose-the,
+  .q2-what-is,
+  .q3,
+  .thorough,
+  .voluble,
+  .what-is-the {
+    font-size: var(--font-size-lgi);
+  }
+}

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./Quiz2.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;1,400;1,800;1,900&display=swap"
+    />
+  </head>
+  <body>
+    <div class="quiz-2">
+      <header class="quiz-frame">
+        <img class="quiz-frame-child" alt="" src="./public/rectangle-25.svg" />
+
+        <h1 class="score-3">Score : 3</h1>
+      </header>
+      <i class="a">A</i>
+      <i class="wrong-answer">Wrong Answer</i>
+      <i class="right-answer">Right Answer</i>
+      <div class="quiz-2-child"></div>
+      <section class="frame-b">
+        <div class="score-text">
+          <div class="choose-frame">
+            <i class="q1-choose-the"
+              >Q1) Choose the word that is most opposite in meaning to
+              "Eloquent."</i
+            >
+            <div class="voluble-ellipse">
+              <div class="voluble-ellipse-child"></div>
+              <i class="inarticulate" id="inarticulateText">Inarticulate</i>
+              <div class="meticulous-frame">
+                <div class="malevolent-frame"></div>
+                <input class="altruistic-frame" type="text" />
+
+                <img class="meticulous-frame-child" loading="eager" alt="" />
+              </div>
+              <div class="inarticulate-text">
+                <div class="ellipse-pair"></div>
+                <i class="b">B</i>
+              </div>
+              <i class="fluent" id="fluentText">Fluent</i>
+              <div class="inarticulate-text1">
+                <div class="inarticulate-text-child"></div>
+                <i class="c">C</i>
+              </div>
+              <i class="voluble" id="volubleText">Voluble</i>
+              <div class="thorough-text">
+                <div class="a-frame"></div>
+                <i class="a1">A</i>
+              </div>
+            </div>
+          </div>
+          <div class="malevolent-ellipse">
+            <div class="careless-frame">
+              <div class="diligent-frame"></div>
+              <div class="thorough-text1">
+                <i class="q2-what-is"
+                  >Q2) What is the synonym for "Meticulous"?</i
+                >
+                <div class="antonym-frame">
+                  <div class="antonym-frame-child"></div>
+                  <div class="malevolent-frame1">
+                    <div class="generous-frame">
+                      <div class="ellipse-pair1"></div>
+                      <i class="a2">A</i>
+                    </div>
+                    <div class="answer-text">
+                      <i class="careless" id="carelessText">Careless</i>
+                    </div>
+                  </div>
+                  <div class="opposite-frames">
+                    <div class="frame-a">
+                      <div class="question-frame"></div>
+                      <i class="b1">B</i>
+                    </div>
+                    <div class="diligent-or-thorough">
+                      <i class="diligent" id="diligentText">Diligent</i>
+                    </div>
+                  </div>
+                  <div class="benevolence-or-malevolence">
+                    <div class="frame-c">
+                      <div class="q-question-mark"></div>
+                      <i class="c1">C</i>
+                    </div>
+                    <i class="thorough" id="thoroughText">Thorough</i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="frame-c1">
+          <div class="frame-c-child"></div>
+          <div class="synonym-or-antonym">
+            <div class="synonym-or-antonym-child"></div>
+            <div class="q-what-is-the-synonym-for">
+              <div class="a-synonym-for-meticulous">
+                <i class="q3">Q3)</i>
+                <div class="frame-a1">
+                  <input class="ellipse-a" type="text" />
+
+                  <i class="a3">A</i>
+                </div>
+              </div>
+              <div class="frame-b1">
+                <i class="what-is-the">What is the antonym of Benevolent?</i>
+                <div class="q-what-is-the-antonym-for-bene">
+                  <div class="malevolent-or-altruistic">
+                    <div class="text-instruction-b">
+                      <i class="malevolent" id="malevolentText"> Malevolent</i>
+                    </div>
+                    <div class="text-instruction-c">
+                      <div class="benevolence">
+                        <div class="c-text-instruction"></div>
+                        <i class="b2">B</i>
+                      </div>
+                      <div class="text-input">
+                        <i class="altruistic" id="altruisticText">Altruistic</i>
+                      </div>
+                    </div>
+                    <div class="antonym-frame1">
+                      <div class="synonym-frame"></div>
+                      <i class="c2">C</i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="generous-frame1">
+              <i class="generous" id="generousText">Generous</i>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      var inarticulateText = document.getElementById("inarticulateText");
+      if (inarticulateText) {
+        inarticulateText.addEventListener("click", function (e) {
+          window.location.href = "./RootFrame.html";
+        });
+      }
+      
+      var fluentText = document.getElementById("fluentText");
+      if (fluentText) {
+        fluentText.addEventListener("click", function (e) {
+          window.location.href = "./MainFrame.html";
+        });
+      }
+      
+      var volubleText = document.getElementById("volubleText");
+      if (volubleText) {
+        volubleText.addEventListener("click", function (e) {
+          window.location.href = "./MainFrame.html";
+        });
+      }
+      
+      var carelessText = document.getElementById("carelessText");
+      if (carelessText) {
+        carelessText.addEventListener("click", function (e) {
+          window.location.href = "./MainFrame.html";
+        });
+      }
+      
+      var diligentText = document.getElementById("diligentText");
+      if (diligentText) {
+        diligentText.addEventListener("click", function (e) {
+          window.location.href = "./MainFrame.html";
+        });
+      }
+      
+      var thoroughText = document.getElementById("thoroughText");
+      if (thoroughText) {
+        thoroughText.addEventListener("click", function (e) {
+          window.location.href = "./RootFrame.html";
+        });
+      }
+      
+      var malevolentText = document.getElementById("malevolentText");
+      if (malevolentText) {
+        malevolentText.addEventListener("click", function (e) {
+          window.location.href = "./RootFrame.html";
+        });
+      }
+      
+      var altruisticText = document.getElementById("altruisticText");
+      if (altruisticText) {
+        altruisticText.addEventListener("click", function (e) {
+          window.location.href = "./MainFrame.html";
+        });
+      }
+      
+      var generousText = document.getElementById("generousText");
+      if (generousText) {
+        generousText.addEventListener("click", function (e) {
+          window.location.href = "./MainFrame.html";
+        });
+      }
+      </script>
+  </body>
+</html>

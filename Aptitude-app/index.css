@@ -1,0 +1,140 @@
+.child-frame-icon {
+  width: 478px;
+  position: relative;
+  border-radius: 25px;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.rectangle-shape {
+  width: 586px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+}
+.discover-your-strengths {
+  margin: 0;
+}
+.discover-your-strengths-container {
+  align-self: stretch;
+  position: relative;
+}
+.secondary-frame-child {
+  height: 102px;
+  width: 370px;
+  position: relative;
+  background-color: var(--color-gainsboro);
+  display: none;
+  max-width: 100%;
+}
+.click-here-for {
+  height: 78px;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-17xl);
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  max-width: 100%;
+  cursor: pointer;
+  z-index: 1;
+}
+.click-button,
+.secondary-frame {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.secondary-frame {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mini) var(--padding-2xs) var(--padding-4xs)
+    var(--padding-6xs);
+  background-color: var(--color-gainsboro);
+  width: 370px;
+  align-items: flex-end;
+  justify-content: center;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.secondary-frame:hover {
+  background-color: var(--color-silver);
+}
+.click-button {
+  width: 564px;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.student-test-call {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 106px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.home-page,
+.main-frame2,
+.student-test-call {
+  display: flex;
+  align-items: center;
+}
+.home-page {
+  flex: 1;
+  background-color: #5c43a4;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 62px 212px 91px var(--padding-21xl);
+  box-sizing: border-box;
+  gap: var(--gap-186xl);
+  max-width: 100%;
+}
+.main-frame2 {
+  width: 100%;
+  position: relative;
+  flex-direction: row;
+  justify-content: center;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .student-test-call {
+    gap: 53px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .discover-your-strengths-container {
+    font-size: var(--font-size-10xl);
+  }
+  .home-page {
+    padding-top: var(--padding-21xl);
+    padding-bottom: 59px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .student-test-call {
+    gap: var(--gap-7xl);
+  }
+  .home-page {
+    gap: var(--gap-83xl);
+    padding-right: 106px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .discover-your-strengths-container {
+    font-size: 22px;
+  }
+  .home-page {
+    gap: var(--gap-32xl);
+    padding: var(--padding-7xl) var(--padding-xl) 38px;
+    box-sizing: border-box;
+  }
+}
